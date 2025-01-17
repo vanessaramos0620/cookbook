@@ -1,0 +1,46 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My Cookbook"
+theme = "cookbook"
+sectionPagesMenu = "main"
+
+[params.front]
+defaultAuthor = "Vanessa Ramos" # Put in the default name of the author of the recipe
+defaultImage = "/images/Logo-2.png" # Default image that will be used for a recipe with no image
+defaultImageHeight = 512 # Default recipe image height
+defaultImageWidth = 512 # Default recipe image width
+
+[params.logo]
+fileName = "/images/Logo-2.png"
+height = 50
+width = 200
+
+[params.favicon]
+fileName = "/images/favicon.svg"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "fas fa-home" # Icon, change if you would prefer a different icon
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Categories" # Change to whatever you want, tags or categories works best
+    pre = "fas fa-tags" # Icon, change if you would prefer a different icon
+    url = "/tags/"
+    weight = 2
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML", "PRINT"]
+
+[outputFormats.PRINT]
+  name = "print"
+  mediaType = "text/html"
+  baseName = "print"
+  isPlainText = false
+  rel = "print"
+  isHTML = true
+  noUgly = true
+  permalinkable = true
+  path = "print"
