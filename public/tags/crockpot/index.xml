@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Crockpot on My Cookbook</title>
+    <link>http://localhost:1313/tags/crockpot/</link>
+    <description>Recent content in Crockpot on My Cookbook</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/tags/crockpot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Homemade Italian Beef</title>
+      <link>http://localhost:1313/homemade-italian-beef/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/homemade-italian-beef/</guid>
+      <description>&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;3 pounds beef chuck roast&lt;/li&gt;&#xA;&lt;li&gt;3 (1 ounce) packages dry Italian salad dressing mix&lt;/li&gt;&#xA;&lt;li&gt;1 cup water&lt;/li&gt;&#xA;&lt;li&gt;1 (16 ounce) jar pepperoncini peppers&lt;/li&gt;&#xA;&lt;li&gt;8 hamburger buns, split&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;directions&#34;&gt;Directions&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Place the roast into a slow cooker, and season with Italian dressing mix. Pour in the water.&lt;/li&gt;&#xA;&lt;li&gt;Cover, and cook on High for 6 to 7 hours.&lt;/li&gt;&#xA;&lt;li&gt;During the last hour, shred the meat with two forks - if it does not shred easily, cook longer.&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Add the peppers, and as much of the juice as you like for additional flavor. Serve on buns.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+  </channel>
+</rss>

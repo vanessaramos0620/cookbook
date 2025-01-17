@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+    <link rel="stylesheet" type="text/css" href="/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/custom.css">
+    <script src="https://kit.fontawesome.com/b7002cebe4.js" crossorigin="anonymous"></script>
+    
+    
+    <title>My Cookbook | Peach Mango Pie</title>
+</head><body><div id="alert" class="notification is-danger is-hidden" style="position: absolute; bottom: 0; right: 0; z-index:99">
+    Alert
+</div><nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-brand">
+            
+                <img src="/images/Logo-2.png" width="200" height="50">
+            
+        </a>
+        <a id="navBarButton" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+    <div id="navBarMenu" class="navbar-menu">
+        <div class="navbar-start">
+            
+            <a class="navbar-item" href="/">
+            
+            <i class="fas fa-home pr-2"></i> 
+            Home</a>
+            
+            <a class="navbar-item" href="/tags/">
+            
+            <i class="fas fa-tags pr-2"></i> 
+            Categories</a>
+            
+        </div>
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <form class="field has-addons">
+                    <div class="control">
+                        <input class="input" id="searchTerm" type="text" value="" placeholder="Search Term...">
+                    </div>
+                    <div class="control">
+                        <button id="searchButton" class="button is-secondary">Search</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</nav><div id="searchResults" class="section is-hidden">
+    <h4 class="title is-3"> Search results </h4>
+    <div id="searchResultsCol" class="columns is-multiline">
+        
+    </div>
+</div>
+<script id="search-result-template" type="text/x-js-template">
+    <div class="column is-one-quarter">
+        <div class="result" id="summary-${key}">
+            <div class="card" style="border-radius: 1%;">
+    <div class="card-image">
+        <figure class="image is-4by3">
+        <img style="border-radius: 3%;" src="${image}" alt="Placeholder image">
+        </figure>
+    </div>
+    <div class="card-content">
+        <div class="media-content">
+            <p class="title is-4 has-text-centered">${title}</p>
+            <p class="subtitle is-6 "><em></em></p>
+        </div>
+        <div class="content">
+            <p class="is-small">${snippet}</p>
+        </div>
+        <div class="card-footer">
+            <a href="${link}" class="card-footer-item button is-primary">View Recipe</a>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</script><div id="content">
+<div class="section">
+    <div class="columns is-centered">
+        <div class="column is-full-mobile is-half-desktop" style="border-radius: 1%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)">
+            <div class="is-flex" style="justify-content: center; border-radius: 3%; background-color: #ffffff; position: relative;">
+                <figure class="image"> 
+                    <img style="border-radius: 3%; width: 512px; height: 512px" src=http://localhost:1313/images/recipe-headers/peach-mango-pie-recipe.webp alt="Placeholder image">
+                </figure>
+
+        
+            </div>
+           
+            <div class="container has-text-centered">
+                <h1 class="title is-bold"> Peach Mango Pie</h1>
+                <p class="subtitle is-italic"> Vanessa Ramos</p>
+                <div class="container has-text-right">
+                    
+<i class="fas fa-tags"></i>
+
+
+<a class="btn btn-sm btn-outline-dark tag-btn" href="http://localhost:1313/tags/dessert">dessert</a>
+
+
+                </div>
+                <hr>
+            </div>
+            <div class="container has-text-centered">    
+                <div class="columns is-mobile is-multiline">
+    <div class="column is-half-mobile" style="border-right: 1px solid #dbdbdb">
+        <i class="fas fa-concierge-bell fa-lg"></i>
+        <div></div>
+        <p class="has-text-weight-bold is-size-6">Servings</p>
+        <div></div>
+        6 Servings
+    </div>
+    <div class="column is-half-mobile" style="border-right: 1px solid #dbdbdb">
+        <i class="fas fa-hourglass-half fa-lg"></i>
+        <div></div>
+        <p class="has-text-weight-bold is-size-6">Prep time</p>
+        <div></div>
+        10 Minutes
+    </div>
+    <div class="column is-half-mobile" style="border-right: 1px solid #dbdbdb">
+        <i class="fas fa-temperature-high fa-lg"></i>
+        <div></div>
+        
+            <p class="has-text-weight-bold is-size-6">Cooking Time</p>
+        
+        <div></div>
+        
+            25 Minutes
+        
+    </div>
+    <div class="column is-half-mobile">
+        <i class="fas fa-fire fa-lg"></i>
+        <div></div>
+        <p class="has-text-weight-bold is-size-6">Calories</p>
+        <div></div>
+        568kcal (28%) Kcal
+    </div>     
+</div>
+            </div>
+            <hr>
+            <p class="subtitle is-italic"> Crispy breaded peach mango pie recipe</p>
+            <div class="content">
+                <h2 id="ingredients">Ingredients</h2>
+<ul>
+<li>12 slices loaf bread</li>
+<li>1 cup Good Life breadcrumbs</li>
+<li>2 tablespoons all-purpose flour</li>
+<li>2 eggs beaten</li>
+</ul>
+<h2 id="filling-ingredients">Filling ingredients:</h2>
+<ul>
+<li>15 ounces mango diced</li>
+<li>15 ounces peach diced</li>
+<li>10 tbsp granulated white sugar</li>
+<li>1 tablespoon cornstarch</li>
+<li>1 teaspoon lemon juice</li>
+<li>A pinch of salt</li>
+<li>½ teaspoon vanilla extract</li>
+<li>3 tablespoons water</li>
+</ul>
+<h2 id="directions">Directions</h2>
+<ol>
+<li>Make the filling by combining mangoes, peaches, sugar, vanilla extract, lemon juice, and salt in a bowl. Mix well.</li>
+<li>Pour the mixture in a pan. Cook for 5 minutes.</li>
+<li>Combine cornstarch and water to create a slurry. Mix well. Pour the mixture into the pan. Stir and continue cooking until the mixture thickens. Remove from the pan and let it cool down.</li>
+<li>Lay each slice of loaf on a chopping board. Slice-out the dark edges. Dust flour on your rolling pin and then flatten each bread slices.</li>
+<li>Scoop around 2 ½ tablespoons of filling mixture and put it on the center of the flattened bread. Make bread pockets by covering the filling. Do this by folding the bread symmetrically. Brush beaten egg on the sides and secure it by pressing the edges against each other. Do this step until all the filling are consumed.</li>
+<li>Dredge the bread pockets in all-purpose flour. Dip in beaten egg. Roll it in Good Life Breadcrumbs. Spray cooking oil on both sides and then arrange in a clean plate. Let it stay for at least 5 minutes.</li>
+<li>Air fry in 370F until the breadcrumbs turns golden brown. Flip the peach mango pie and do the same on the opposite side. Serve. Share and enjoy!</li>
+</ol>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div><p class="footer text-center">©panlasangpinoy<script src="/js/umbrella.min.js"></script>
+<script src="/js/custom.js"></script>
+<script src="/js/menu.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
+
+</body>
+</html>

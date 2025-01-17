@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Snacks on My Cookbook</title>
+    <link>http://localhost:1313/tags/snacks/</link>
+    <description>Recent content in Snacks on My Cookbook</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/tags/snacks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Snickerdoodles</title>
+      <link>http://localhost:1313/snickerdoodles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/snickerdoodles/</guid>
+      <description>&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;1 cup shortening&lt;/li&gt;&#xA;&lt;li&gt;1 1/2 cups white sugar&lt;/li&gt;&#xA;&lt;li&gt;2 eggs&lt;/li&gt;&#xA;&lt;li&gt;2 3/4 cups all-purpose flour&lt;/li&gt;&#xA;&lt;li&gt;1 teaspoon baking soda&lt;/li&gt;&#xA;&lt;li&gt;2 teaspoons cream of tartar&lt;/li&gt;&#xA;&lt;li&gt;1/2 teaspoon salt&lt;/li&gt;&#xA;&lt;li&gt;2 tablespoons white sugar&lt;/li&gt;&#xA;&lt;li&gt;2 teaspoons ground cinnamon&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;directions&#34;&gt;Directions&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Preheat oven to 375 degrees F (190 degrees C).&lt;/li&gt;&#xA;&lt;li&gt;In a medium bowl, cream together the shortening and 1 1/2 cups sugar. Stir in the eggs. Sift together the flour, baking soda, cream of tartar, and salt; stir into the creamed mixture until well blended.&lt;/li&gt;&#xA;&lt;li&gt;In a small bowl, stir together the 2 tablespoons of sugar, and the cinnamon. Roll dough into walnut sized balls, then roll the balls in the cinnamon-sugar. Place them onto an unprepared cookie sheet, two inches apart.&lt;/li&gt;&#xA;&lt;li&gt;Bake for 8 to 10 minutes in the preheated oven. Edges should be slightly brown. Remove from sheets to cool on wire racks.&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+  </channel>
+</rss>
