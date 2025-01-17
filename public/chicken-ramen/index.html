@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+    <link rel="stylesheet" type="text/css" href="/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/custom.css">
+    <script src="https://kit.fontawesome.com/b7002cebe4.js" crossorigin="anonymous"></script>
+    
+    
+    <title>My Cookbook | Homemade Chicken Ramen</title>
+</head><body><div id="alert" class="notification is-danger is-hidden" style="position: absolute; bottom: 0; right: 0; z-index:99">
+    Alert
+</div><nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-brand">
+            
+                <img src="/images/Logo-2.png" width="200" height="50">
+            
+        </a>
+        <a id="navBarButton" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+    <div id="navBarMenu" class="navbar-menu">
+        <div class="navbar-start">
+            
+            <a class="navbar-item" href="/">
+            
+            <i class="fas fa-home pr-2"></i> 
+            Home</a>
+            
+            <a class="navbar-item" href="/tags/">
+            
+            <i class="fas fa-tags pr-2"></i> 
+            Categories</a>
+            
+        </div>
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <form class="field has-addons">
+                    <div class="control">
+                        <input class="input" id="searchTerm" type="text" value="" placeholder="Search Term...">
+                    </div>
+                    <div class="control">
+                        <button id="searchButton" class="button is-secondary">Search</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</nav><div id="searchResults" class="section is-hidden">
+    <h4 class="title is-3"> Search results </h4>
+    <div id="searchResultsCol" class="columns is-multiline">
+        
+    </div>
+</div>
+<script id="search-result-template" type="text/x-js-template">
+    <div class="column is-one-quarter">
+        <div class="result" id="summary-${key}">
+            <div class="card" style="border-radius: 1%;">
+    <div class="card-image">
+        <figure class="image is-4by3">
+        <img style="border-radius: 3%;" src="${image}" alt="Placeholder image">
+        </figure>
+    </div>
+    <div class="card-content">
+        <div class="media-content">
+            <p class="title is-4 has-text-centered">${title}</p>
+            <p class="subtitle is-6 "><em></em></p>
+        </div>
+        <div class="content">
+            <p class="is-small">${snippet}</p>
+        </div>
+        <div class="card-footer">
+            <a href="${link}" class="card-footer-item button is-primary">View Recipe</a>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</script><div id="content">
+<div class="section">
+    <div class="columns is-centered">
+        <div class="column is-full-mobile is-half-desktop" style="border-radius: 1%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)">
+            <div class="is-flex" style="justify-content: center; border-radius: 3%; background-color: #ffffff; position: relative;">
+                <figure class="image"> 
+                    <img style="border-radius: 3%; width: 512px; height: 512px" src=http://localhost:1313/images/recipe-headers/homemade-chicken-ramen.jpg alt="Placeholder image">
+                </figure>
+
+        
+            </div>
+           
+            <div class="container has-text-centered">
+                <h1 class="title is-bold"> Homemade Chicken Ramen</h1>
+                <p class="subtitle is-italic"> Vanessa Ramos</p>
+                <div class="container has-text-right">
+                    
+<i class="fas fa-tags"></i>
+
+
+<a class="btn btn-sm btn-outline-dark tag-btn" href="http://localhost:1313/tags/ramen">ramen</a>
+
+
+<a class="btn btn-sm btn-outline-dark tag-btn" href="http://localhost:1313/tags/meal">meal</a>
+
+
+                </div>
+                <hr>
+            </div>
+            <div class="container has-text-centered">    
+                <div class="columns is-mobile is-multiline">
+    <div class="column is-half-mobile" style="border-right: 1px solid #dbdbdb">
+        <i class="fas fa-concierge-bell fa-lg"></i>
+        <div></div>
+        <p class="has-text-weight-bold is-size-6">Servings</p>
+        <div></div>
+        8 Servings
+    </div>
+    <div class="column is-half-mobile" style="border-right: 1px solid #dbdbdb">
+        <i class="fas fa-hourglass-half fa-lg"></i>
+        <div></div>
+        <p class="has-text-weight-bold is-size-6">Prep time</p>
+        <div></div>
+        60 Minutes
+    </div>
+    <div class="column is-half-mobile" style="border-right: 1px solid #dbdbdb">
+        <i class="fas fa-temperature-high fa-lg"></i>
+        <div></div>
+        
+            <p class="has-text-weight-bold is-size-6">Cooking Time</p>
+        
+        <div></div>
+        
+            20 Minutes
+        
+    </div>
+    <div class="column is-half-mobile">
+        <i class="fas fa-fire fa-lg"></i>
+        <div></div>
+        <p class="has-text-weight-bold is-size-6">Calories</p>
+        <div></div>
+        400 Kcal
+    </div>     
+</div>
+            </div>
+            <hr>
+            <p class="subtitle is-italic"> An easy homemade chicken ramen, with a flavorful broth, roasted chicken, fresh veggies, lots of noodles, and a soft cooked egg.</p>
+            <div class="content">
+                <h2 id="ingredients">Ingredients</h2>
+<h4 id="chicken">Chicken</h4>
+<ul>
+<li>4 Chicken Breasts (boneless)</li>
+<li>2 tbsp unsalted butter</li>
+<li>Salt and Pepper</li>
+</ul>
+<h4 id="broth">Broth</h4>
+<ul>
+<li>4 tsp sesame or vegetable oil</li>
+<li>4 tsp fresh ginger, minced</li>
+<li>6 tsp fresh garlic, minced</li>
+<li>6 tbsp low-sodium soy sauce</li>
+<li>4 tbsp mirin</li>
+<li>8 cups rich chicken stock</li>
+<li>1 1/2 cups fresh shitake or bella mushrooms</li>
+<li>Sea Salt (to taste)</li>
+</ul>
+<h4 id="noodles">Noodles</h4>
+<ul>
+<li>6 (2-3oz) packs of dried ramen noodles</li>
+</ul>
+<h4 id="extras">Extras</h4>
+<ul>
+<li>6 Eggs</li>
+<li>1 cup scallions or green onions, tops sliced</li>
+<li>optional: fresh jalapeno slices</li>
+</ul>
+<h2 id="directions">Directions</h2>
+<ol>
+<li>Cook the chicken: Preheat the oven to 375 degrees. Season the chicken generously with salt and pepper. Melt the butter in a large oven-safe skillet over medium heat. Add the chicken, and cook until it is golden brown.
+<ol>
+<li>Transfer the skillet to the oven and roast for 15-20 minutes, until the chicken is cooked through. Remove from the oven, transfer the chicken to a plate and cover with foil until ready to serve.</li>
+</ol>
+</li>
+<li>Make the ramen broth: Heat the oil in a large pot (enough for 10 cups at least) over medium heat, until shimmering. Add the garlic and ginger, and cook for a few minutes until softened. Add the soy sauce and mirin, and stir to combine. Cook for another minute. Add the stock, and the bulbs of the green onions (if using, tops cut off) cover, and bring to boil. Remove the lid, and let simmer uncovered for 5 minutes, then add the dried mushrooms. Simmer gently for another 10 minutes, then remove the green onion bulbs and season with salt, to taste.</li>
+<li>Make the soft-boiled eggs: Fill a pot with enough water to cover the eggs, and bring to a boil. Gently lower the eggs (still cold from the fridge) into the boiling water, and let simmer for 8 minutes (for a soft, but set-up yoke).
+<ol>
+<li>Meanwhile, fill a large bowl with ice water. When the timer finishes, transfer the eggs to the ice bath to stop the cooking process. Wait at least 5 minutes, or until cool enough to handle, then carefully peel away the shell and slice in half, lengthwise. Set aside until ready to serve.</li>
+</ol>
+</li>
+<li>Assemble the ramen bowls: Meanwhile, chop the scallions and jalapeño (if using). Slice the chicken into thin pieces. Set aside. When the eggs finish cooking, add the ramen noodles to the boiling water. Cook for 2-3 minutes, until soft, then divide the noodles into two large bowls. Add the sliced chicken and the ramen broth. Top with the fresh scallions, jalapeño and the soft boiled egg. Serve immediately.</li>
+</ol>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div><p class="footer text-center">©panlasangpinoy<script src="/js/umbrella.min.js"></script>
+<script src="/js/custom.js"></script>
+<script src="/js/menu.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
+
+</body>
+</html>
