@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quick on My Cookbook</title>
+    <link>http://localhost:1313/tags/quick/</link>
+    <description>Recent content in Quick on My Cookbook</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/tags/quick/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Olive Chicken Rollups</title>
+      <link>http://localhost:1313/olive-chicken-rollups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/olive-chicken-rollups/</guid>
+      <description>&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;1 1/4 lbs deli smoked chicken&lt;/li&gt;&#xA;&lt;li&gt;8 flour tortillas (8 inches)&lt;/li&gt;&#xA;&lt;li&gt;8 ounces (1 package) cream cheese, softened&lt;/li&gt;&#xA;&lt;li&gt;8 ounces ( 2 cans x 4 ounces each) chopped green chilies, drained&lt;/li&gt;&#xA;&lt;li&gt;4 1/4 ounces (1 can) chopped ripe olives, drained&lt;/li&gt;&#xA;&lt;li&gt;2 ounces (1 jar) diced pimientos, drained&lt;/li&gt;&#xA;&lt;li&gt;1/4 teaspoon garlic powder&lt;/li&gt;&#xA;&lt;li&gt;1/4 teaspoon chili powder&lt;/li&gt;&#xA;&lt;li&gt;1/4 teaspoon hot pepper sauce&lt;/li&gt;&#xA;&lt;li&gt;Salsa or Picante sauce, optional&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;directions&#34;&gt;Directions&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Step One&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Sub Step One&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Step Two&lt;/li&gt;&#xA;&lt;li&gt;Step Three&lt;/li&gt;&#xA;&lt;li&gt;Step Four&lt;/li&gt;&#xA;&lt;li&gt;Step Five&lt;/li&gt;&#xA;&lt;li&gt;Step Six&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h4 id=&#34;footnotes&#34;&gt;Footnotes&lt;/h4&gt;</description>
+    </item>
+  </channel>
+</rss>
