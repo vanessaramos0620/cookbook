@@ -2,7 +2,7 @@
 draft: false
 title: "Chicken Binagoongan"
 author: Vanessa Ramos
-recipe_image: static/images/recipe-headers/Chicken-Binagoongan.jpg #The image for your recipe
+recipe_image: images/recipe-headers/Chicken-Binagoongan.jpg #The image for your recipe
 image_width: 512
 image_height: 512
 tags: ["dinner"] #tags for your recipe
